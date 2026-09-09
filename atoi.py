@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from functools import reduce
 
 def atoi(s: str) -> int:
@@ -13,3 +14,10 @@ def atoi(s: str) -> int:
             1 if s[0] in ('-', '+') else 0
         )
     )
+
+# Example to see it work when executed
+if __name__ == "__main__":
+    import sys
+    # If an argument is passed, parse it; otherwise use a default
+    input_str = sys.argv[1] if len(sys.argv) > 1 else "456"
+    print(atoi(input_str))
