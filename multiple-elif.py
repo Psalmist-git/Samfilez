@@ -1,4 +1,4 @@
-age - 12
+age = 12
 
 if age  < 4:
     price = 0
