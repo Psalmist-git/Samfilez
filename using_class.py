@@ -15,10 +15,11 @@ class Dog():
 # 2. Go all the way to the left margin to use the blueprint
 my_dog = Dog('willie', 6)
 
-# This works perfectly now because the actions are inside the blueprint!
-my_dog.sit()
-my_dog.roll_over()
 
 # 3. Print the results
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years old.")
+
+# This works perfectly now because the actions are inside the blueprint!
+my_dog.sit()
+my_dog.roll_over()
