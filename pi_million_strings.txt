@@ -1,0 +1,7 @@
+# Replace this with the actual folder path where your file lives
+filename = '/home/student/Downloads/pi_million_digits.txt' 
+
+with open(filename) as file_object:
+    lines = file_object.readlines()
+
+# ... rest of your code remains the same
