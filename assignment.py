@@ -34,3 +34,21 @@ print("Hello")  # The only visible output
 # Clean up complete.
 # End of the testrun.
 # First inline comment.  # second inline comment
+
+
+print(19 +13 + 10)
+print(50 - 8)
+print(6 * 7)
+print(7 ** (5 -3) -1 * 7)
+print(336 // 8)
+
+
+# 1. 12345 * 67890 = 838102050
+# 2. 2 ** 10 = 1024
+# 3. 7 / 2 = 3.5 because Python's single forward slash performs float division, which preserves the precise decimal remainder.
+# 4. Typing 10 / 0 throws a ZeroDivisionError because dividing any number by zero is mathematically undefined.
+
+
+
+print("Hello, World!\n" * 3)
+
