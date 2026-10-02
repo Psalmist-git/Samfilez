@@ -1,9 +1,9 @@
 print("Give me two numbers, and I'll divide them.")
-print("Enter 'q' to quit.")
+print("Enter 'quit' to quit.")
 
 while True:
     first_number = input("\nFirst number: ")
-    if first_number == 'q':
+    if first_number == 'quit':
         break
     second_number = input("Second number: ")
     try:
